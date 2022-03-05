@@ -1,0 +1,24 @@
+{
+  "name": "project_obi",
+  "version": "1.0.0",
+  "description": "Special Project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obi-niemur/Obi_Portfolio.git"
+  },
+  "author": "Niemur Rahman Obi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obi-niemur/Obi_Portfolio/issues"
+  },
+  "homepage": "https://github.com/obi-niemur/Obi_Portfolio#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
