@@ -1,7 +1,7 @@
 {
-  "name": "project_obi",
+  "name": "portfolio_obi",
   "version": "1.0.0",
-  "description": "Special Project",
+  "description": "Obi_portfolio",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
@@ -18,7 +18,14 @@
     "url": "https://github.com/obi-niemur/Obi_Portfolio/issues"
   },
   "homepage": "https://github.com/obi-niemur/Obi_Portfolio#readme",
+  "devDependencies": {
+    "install": "^0.13.0",
+    "lite-server": "^2.6.1",
+    "npm": "^8.5.3"
+  },
   "dependencies": {
-    "lite-server": "^2.6.1"
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
