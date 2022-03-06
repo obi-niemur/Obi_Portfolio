@@ -12,7 +12,20 @@
 
 /* Navigation Section */
 
+#navigation-bar {
+    background-color: #343a40;
+}
+
 #navigation-bar .navbar-nav {
     position: absolute;
     right: 0;
+}
+
+.jumbotron {
+    color: white;
+    background-image: url("./img/img_3.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
