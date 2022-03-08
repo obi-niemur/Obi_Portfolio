@@ -29,3 +29,14 @@
     background-size: cover;
     height: 100vh;
 }
+
+.image {
+    background: url(./img/img_2.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    max-width: 100%;
+}
