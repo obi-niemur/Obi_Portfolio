@@ -43,6 +43,12 @@
 }
 
 .about-section {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 22px;
+}
+
+.about-section h6,
+p,
+.info label {
+    margin-left: -16px;
 }
