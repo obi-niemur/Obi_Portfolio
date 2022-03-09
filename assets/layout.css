@@ -21,14 +21,18 @@
     right: 0;
 }
 
-.jumbotron {
+
+/* .jumbotron {
     color: white;
     background-image: url("./img/img_3.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-}
+} */
+
+
+/* about me styling */
 
 .image {
     background: url(./img/img_2.JPG);
@@ -51,6 +55,17 @@
 p,
 .info label {
     margin-left: -16px;
+}
+
+
+/* project styling */
+
+#project_section {
+    position: relative;
+}
+
+#project_section .project-text {
+    text-align: center;
 }
 
 
