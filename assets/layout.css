@@ -76,6 +76,19 @@ p,
 }
 
 
+/* .project-desc {
+    display: none;
+} */
+
+.hideDesc {
+    display: none;
+}
+
+.showDesc {
+    display: block;
+}
+
+
 /* Media Queries */
 
 @media only screen and (max-width: 991px) {
