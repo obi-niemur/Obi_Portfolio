@@ -68,6 +68,13 @@ p,
     text-align: center;
 }
 
+#project_section .marquee {
+    border: 1px solid gray;
+    height: 28px;
+    overflow: hidden;
+    background: #f7f2f3;
+}
+
 
 /* Media Queries */
 
