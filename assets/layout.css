@@ -75,17 +75,9 @@ p,
     background: #f7f2f3;
 }
 
-
-/* .project-desc {
+.project-desc1,
+.project-desc {
     display: none;
-} */
-
-.hideDesc {
-    display: none;
-}
-
-.showDesc {
-    display: block;
 }
 
 
