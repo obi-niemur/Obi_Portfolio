@@ -1,27 +1,15 @@
 $(document).ready(() => {
 
-    $('.project-header').click(function() {
-        $('.project-desc').animate({
-            width: "toggle",
-
-        }, 1000);
+    $('.btn_click').click(function() {
+        $('.project-desc').toggle();
     });
 
-
-
-
-    $('.project-header1').click(function() {
-        $('.project-desc1').animate({
-            width: "toggle",
-
-        }, 1000);
+    $('.btn_click1').click(function() {
+        $('.project-desc1').toggle();
     });
 
-    $('.project-header2').click(function() {
-        $('.project-desc2').animate({
-            width: "toggle",
-
-        }, 1000);
+    $('.btn_click2').click(function() {
+        $('.project-desc2').toggle();
     });
 
 

@@ -81,6 +81,10 @@ p,
     display: none;
 }
 
+.card-style {
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Media Queries */
 
