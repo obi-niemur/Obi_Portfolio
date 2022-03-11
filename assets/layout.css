@@ -76,7 +76,8 @@ p,
 }
 
 .project-desc1,
-.project-desc {
+.project-desc,
+.project-desc2 {
     display: none;
 }
 

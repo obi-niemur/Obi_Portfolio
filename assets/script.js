@@ -17,8 +17,12 @@ $(document).ready(() => {
         }, 1000);
     });
 
-    // $('.project-header').on('click', event => {
-    //     $(event + '.project-desc').addClass('hideDesc');
-    // });
+    $('.project-header2').click(function() {
+        $('.project-desc2').animate({
+            width: "toggle",
+
+        }, 1000);
+    });
+
 
 });
