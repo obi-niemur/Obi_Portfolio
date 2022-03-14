@@ -79,10 +79,61 @@ p,
 .project-desc,
 .project-desc2 {
     display: none;
+    position: relative;
+    left: 14px;
+    margin-top: 15px;
 }
 
 .card-style {
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    margin-top: 21px
+}
+
+.card-img-top {
+    width: 200px;
+}
+
+.card-img-top:hover {
+    width: 102%;
+    transition: width 1s;
+}
+
+.card .card-text {
+    position: relative;
+    left: 16px;
+}
+
+#skills {
+    position: relative;
+}
+
+#skills .my-services {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#skills .my-services::after {
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 4px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    top: 27px;
+    max-width: 100%;
+    right: 37px;
+}
+
+#skills .my-services::before {
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 4px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    top: 26px;
+    max-width: 100%;
+    left: 39px;
 }
 
 
